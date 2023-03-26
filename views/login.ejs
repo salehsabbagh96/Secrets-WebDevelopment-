@@ -18,23 +18,32 @@
               <label for="password">Password</label>
               <input type="password" class="form-control" name="password">
             </div>
-            <button type="submit" class="btn btn-dark">Login</button>
+           
+            <button type="submit" class="btn btn-dark">Login </button>
+            <a class="btn" href="/auth/google" role="button">
+              <i class="fab fa-google"></i>
+              Sign In with Google
+            </a>
+
+            <p></p>
+            <p style="color: red;"> <%= Message %> </p>
+            
+            
           </form>
 
         </div>
       </div>
-    </div>
+      <p style="padding-top:10px;">Don't have an account ? <a href="/register">Register</a> </p> 
 
-    <!-- <div class="col-sm-4">
+     </div>
+    
+    <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
-          <a class="btn btn-block" href="/auth/google" role="button">
-            <i class="fab fa-google"></i>
-            Sign In with Google
-          </a>
+         
         </div>
       </div>
-    </div> -->
+    </div>
 
   </div>
 </div>
